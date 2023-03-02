@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+}
+.navbar {
+	border: solid black;
+	height: 33px;
+	background-color: black;
+	opacity: 80%;
+	position: sticky;
+	top: 0px;
+	z-index: 10;
+
+}
+
+.nave_element {
+	display: flex;
+	gap: 3px;
+	align-items: flex-start;
+	margin-top: 8px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	font-size: small;
+	color: white;
+
+}
+
+li { 
+	/* For remove the decoration */
+	list-style: none;
+	/* For style the pointer or curser */
+	cursor:pointer;
+}
+
+a {            
+    /* For remove the underline  */
+	text-decoration: none;
+	color: black; 
+}
+li:hover{
+   color:grey;
+}
+.container1{
+	text-align: center;
+	padding: 13px;
+	background-color: rgb(232, 230, 230);
+	font-size: small;
+}
+.sec{
+	color: blue;
+}
+.Iphone{
+     /* To adjust the img original width  */
+	width: 100%; 
+	max-height: 90%;
+}
+.Iphone13pro{
+	width: 100%;
+}
+.Ipadmini{
+	width: 100%;
+	max-height: 40rem;
+}
+.container2{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+	padding: 1rem;
+
+}
+.Homepod{
+width: 100%;
+padding-top: 50px;}
+.Arcade{
+	width: 100%;
+padding-top:50px ;
+max-height: 21rem;
+}
+.Imagetv{
+	width: 100%;
+
+}
+.Watch{
+	width: 100%;
+max-height: 25rem;
+}
+.Bookpro{
+	width: 100%;
+
+}
+.Podspro{
+	width: 100%;
+	z-index: -10;
+
+}
+@media(max-width:600px){
+	.container2{
+		grid-template-columns: 1fr;
+	}
+}
+.container3{
+	background-color: rgb(186, 183, 183);
+	padding: 10px 14px 15px 20px;
+	line-height: 2;
+
+}
