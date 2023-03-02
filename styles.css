@@ -34,7 +34,7 @@ li {
 a {            
     /* For remove the underline  */
 	text-decoration: none;
-	color: black; 
+	color: white; 
 }
 li:hover{
    color:grey;
