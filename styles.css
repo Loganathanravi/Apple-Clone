@@ -45,7 +45,7 @@ li:hover {
 .container1 {
 	text-align: center;
 	padding: 13px;
-	background-color: rgb(232, 230, 230);
+	background-color:#EEEEEE;
 	font-size: small;
 }
 
@@ -116,7 +116,7 @@ li:hover {
 }
 
 .container3 {
-	background-color: rgb(235, 229, 229);
+	background-color:#EEEEEE;
 	padding: 10px 14px 15px 20px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: smaller;
@@ -129,8 +129,11 @@ li:hover {
 #container4-elements{
 display: flex;
 font-family: 'Montserrat', sans-serif;
-gap: 3px;
+gap: 10px;
 font-size: small;
 padding: 0px;
+}
+.line{
+	padding-top: 12px;
 }
 
