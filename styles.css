@@ -1,6 +1,7 @@
-*{
+* {
 	margin: 0px;
 }
+
 .navbar {
 	border: solid black;
 	height: 33px;
@@ -24,43 +25,50 @@
 
 }
 
-li { 
+li {
 	/* For remove the decoration */
 	list-style: none;
 	/* For style the pointer or curser */
-	cursor:pointer;
+	cursor: pointer;
 }
 
-a {            
-    /* For remove the underline  */
+a {
+	/* For remove the underline  */
 	text-decoration: none;
-	color: white; 
+	color: white;
 }
-li:hover{
-   color:grey;
+
+li:hover {
+	color: grey;
 }
-.container1{
+
+.container1 {
 	text-align: center;
 	padding: 13px;
 	background-color: rgb(232, 230, 230);
 	font-size: small;
 }
-.sec{
+
+.sec {
 	color: blue;
 }
-.Iphone{
-     /* To adjust the img original width  */
-	width: 100%; 
+
+.Iphone {
+	/* To adjust the img original width  */
+	width: 100%;
 	max-height: 90%;
 }
-.Iphone13pro{
+
+.Iphone13pro {
 	width: 100%;
 }
-.Ipadmini{
+
+.Ipadmini {
 	width: 100%;
 	max-height: 40rem;
 }
-.container2{
+
+.container2 {
 	display: grid;
 	grid-template-rows: auto auto auto;
 	grid-template-columns: 1fr 1fr;
@@ -68,39 +76,62 @@ li:hover{
 	padding: 1rem;
 
 }
-.Homepod{
-width: 100%;
-padding-top: 50px;}
-.Arcade{
+
+.Homepod {
 	width: 100%;
-padding-top:50px ;
-max-height: 21rem;
+	padding-top: 50px;
 }
-.Imagetv{
+
+.Arcade {
+	width: 100%;
+	padding-top: 50px;
+	max-height: 21rem;
+}
+
+.Imagetv {
 	width: 100%;
 
 }
-.Watch{
+
+.Watch {
 	width: 100%;
-max-height: 25rem;
+	max-height: 25rem;
 }
-.Bookpro{
+
+.Bookpro {
 	width: 100%;
 
 }
-.Podspro{
+
+.Podspro {
 	width: 100%;
 	z-index: -10;
 
 }
-@media(max-width:600px){
-	.container2{
+
+@media(max-width:600px) {
+	.container2 {
 		grid-template-columns: 1fr;
 	}
 }
-.container3{
-	background-color: rgb(186, 183, 183);
-	padding: 10px 14px 15px 20px;
-	line-height: 2;
 
+.container3 {
+	background-color: rgb(235, 229, 229);
+	padding: 10px 14px 15px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: smaller;
 }
+
+.container3 a {
+	color: blue;
+}
+
+#container4-elements{
+display: flex;
+font-family: 'Montserrat', sans-serif;
+gap: 13px;
+font-size: small;
+position: absolute;
+left:0px;
+}
+
