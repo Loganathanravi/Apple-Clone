@@ -129,9 +129,8 @@ li:hover {
 #container4-elements{
 display: flex;
 font-family: 'Montserrat', sans-serif;
-gap: 13px;
+gap: 3px;
 font-size: small;
-position: absolute;
-left:0px;
+padding: 0px;
 }
 
